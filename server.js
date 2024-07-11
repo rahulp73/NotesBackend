@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 mongoose.set('strictQuery', true)
 app.use(cors({
-    origin: 'http://localhost:3001',
+    origin: 'http://localhost:3000',
     optionsSuccessStatus: 204,
     credentials : true
 }))
