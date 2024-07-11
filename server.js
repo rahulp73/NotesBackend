@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 mongoose.set('strictQuery', true)
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000','https://sage-faun-9a6f95.netlify.app/'],
     optionsSuccessStatus: 204,
     credentials : true
 }))
